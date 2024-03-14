@@ -6,9 +6,10 @@ const settings = {
 
 const sketch = () => {
   return ({ context, width, height }) => {
-    context.fillStyle = 'white';
+    context.fillStyle = 'black';
     context.fillRect(0, 0, width, height);
-    context.lineWidth = width * 0.01;
+    context.lineWidth = width * 0.005;
+    context.strokeStyle = '#F9F6EE'; //cambiar color al borde
 
     const w = width * 0.10;
     const h =  height * 0.10;

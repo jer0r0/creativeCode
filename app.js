@@ -15,7 +15,15 @@ context.arc(300,300,100, 0,Math.PI*2);
 // 200 in this case is the radious of the arc
 //context.stroke();
 
+let favBandas = ['nirvana', 'the beatles','los petitfellas','nicolas y los fumadores'];
+let favMusica = ['teen spirit', 'help','los verbos','NPi'];
 
-
-
-
+function listArtistas(){
+    for(let i = 0; i < favBandas.length; i++){
+        console.log(favBandas[i]);
+        console.log(favMusica[i]);
+        console.log('\n');
+        
+    }
+}
+listArtistas();
